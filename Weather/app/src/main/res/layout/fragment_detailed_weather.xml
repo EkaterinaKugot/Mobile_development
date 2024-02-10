@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F1D7">
+
+    <RelativeLayout
+        android:id="@+id/weatherDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="false"
+            android:text="Temperature: "
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textViewSunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTemp"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="8dp"
+            android:text="Sunrise Time: "
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textViewSunset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSunrise"
+            android:layout_marginTop="8dp"
+            android:text="Sunset Time: "
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSunset"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="8dp"
+            android:text="Description: "
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textViewWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDescription"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="8dp"
+            android:text="Wind speed: "
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
