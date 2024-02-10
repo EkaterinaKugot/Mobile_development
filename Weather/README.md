@@ -4,7 +4,7 @@
 
 ## Демонстрация
 
-![gif_1](https://github.com/EkaterinaKugot/Mobile_development/blob/master/Weather/gif1.gif)
+![gif_1](https://github.com/EkaterinaKugot/Mobile_development/blob/master/Weather/result.gif)
 
 
 
