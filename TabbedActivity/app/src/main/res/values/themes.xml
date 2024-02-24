@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabbedActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TabbedActivity" parent="Base.Theme.TabbedActivity" />
+
+    <style name="MyTabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:textColor">@color/darkpurple</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@color/lightpink</item>
+    </style>
+</resources>
