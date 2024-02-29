@@ -1,0 +1,99 @@
+{
+  "movies": [
+    {
+      "name": "Inception",
+      "year": 2010,
+      "rating": 8.7,
+      "age_limit": 12,
+      "duration": 148,
+      "genre": [
+        "science fiction",
+        "action",
+        "thriller",
+        "drama",
+        "detective"
+      ]
+    },
+    {
+      "name": "Matrix",
+      "year": 1999,
+      "rating": 8.5,
+      "age_limit": 16,
+      "duration": 136,
+      "genre": [
+        "science fiction",
+        "action"
+      ]
+    },
+    {
+      "name": "Truman Show",
+      "year": 1998,
+      "rating": 8.3,
+      "age_limit": 18,
+      "duration": 103,
+      "genre": [
+        "comedy",
+        "drama"
+      ]
+    },
+    {
+      "name": "Mask",
+      "year": 1994,
+      "rating": 8.0,
+      "age_limit": 12,
+      "duration": 101,
+      "genre": [
+        "crime",
+        "comedy",
+        "fantasy"
+      ]
+    },
+    {
+      "name": "Matrix 2",
+      "year": 2003,
+      "rating": 7.7,
+      "age_limit": 16,
+      "duration": 138,
+      "genre": [
+        "science fiction",
+        "action"
+      ]
+    },
+    {
+      "name": "Matrix 3",
+      "year": 2003,
+      "rating": 7.6,
+      "age_limit": 16,
+      "duration": 129,
+      "genre": [
+        "science fiction",
+        "action"
+      ]
+    },
+    {
+      "name": "Dune",
+      "year": 2021,
+      "rating": 7.7,
+      "age_limit": 12,
+      "duration": 155,
+      "genre": [
+        "science fiction",
+        "action",
+        "drama",
+        "adventure"
+      ]
+    },
+    {
+      "name": "Moneyball",
+      "year": 2011,
+      "rating": 7.7,
+      "age_limit": 18,
+      "duration": 133,
+      "genre": [
+        "biography",
+        "history",
+        "drama"
+      ]
+    }
+  ]
+}
