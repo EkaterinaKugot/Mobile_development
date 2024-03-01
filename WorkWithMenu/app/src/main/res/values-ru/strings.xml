@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="editTextHint">Введите название города</string>
+    <string name="buttonText">Обновить погоду</string>
+    <string name="sunrise">Время восхода солнца: </string>
+    <string name="sunset">Время захода солнца: </string>
+    <string name="description">Описание: </string>
+    <string name="wind">Скорость ветра: </string>
+    <string name="emptyText">Введите город!</string>
+    <string name="ru">Русский</string>
+    <string name="en">Английский</string>
+</resources>
