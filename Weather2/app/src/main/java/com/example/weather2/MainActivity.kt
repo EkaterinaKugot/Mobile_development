@@ -1,4 +1,5 @@
 package com.example.weather2
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -8,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val button = findViewById<Button>(R.id.buttonDialogBox)
-        button.setOnClickListener{
+        button.setOnClickListener {
             val dialog = DialogFragment()
             dialog.show(supportFragmentManager, "Выбор")
         }

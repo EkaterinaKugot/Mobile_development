@@ -1,4 +1,5 @@
 package com.example.weather
+
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -34,8 +35,6 @@ class MainActivity : AppCompatActivity() {
             .replace(R.id.fragmentContainer, DetailedWeatherFragment())
             .commit()
     }
-
-
 
 
 }

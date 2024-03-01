@@ -25,8 +25,10 @@ class MainActivity : AppCompatActivity() {
         val countryArray = resources.getStringArray(R.array.movies_country)
 
 
-        val adapter = ViewPagerAdapter(this, titlesArray, ratingArray,
-            descriptionsArray, genreArray, countryArray)
+        val adapter = ViewPagerAdapter(
+            this, titlesArray, ratingArray,
+            descriptionsArray, genreArray, countryArray
+        )
         viewPager.adapter = adapter
 
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->

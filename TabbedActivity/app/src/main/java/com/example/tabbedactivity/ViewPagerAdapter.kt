@@ -18,7 +18,9 @@ class ViewPagerAdapter(
     }
 
     override fun createFragment(position: Int): Fragment {
-        return MovieFragment.newInstance(titlesArray[position],ratingArray[position],
-            descriptionsArray[position], genreArray[position], countryArray[position])
+        return MovieFragment.newInstance(
+            titlesArray[position], ratingArray[position],
+            descriptionsArray[position], genreArray[position], countryArray[position]
+        )
     }
 }

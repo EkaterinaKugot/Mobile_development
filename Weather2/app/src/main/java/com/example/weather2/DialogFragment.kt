@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 
-class DialogFragment : DialogFragment(){
+class DialogFragment : DialogFragment() {
     var onPositiveClickListener: OnClickListener? = null
     var onNegativeClickListener: OnClickListener? = null
 

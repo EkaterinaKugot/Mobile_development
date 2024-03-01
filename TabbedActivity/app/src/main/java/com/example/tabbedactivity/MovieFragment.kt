@@ -19,9 +19,11 @@ class MovieFragment : Fragment() {
         private const val ARG_COUNTRY = "country"
 
 
-        fun newInstance(title: String, rating: String,
-                        description: String, genre:String,
-                        country: String): MovieFragment {
+        fun newInstance(
+            title: String, rating: String,
+            description: String, genre: String,
+            country: String
+        ): MovieFragment {
             val fragment = MovieFragment()
             val args = Bundle()
             args.putString(ARG_TITLE, title)
@@ -46,7 +48,6 @@ class MovieFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
 
         val title = arguments?.getString(ARG_TITLE) ?: ""

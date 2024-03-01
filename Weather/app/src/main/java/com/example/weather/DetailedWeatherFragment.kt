@@ -21,7 +21,7 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 
-class DetailedWeatherFragment : Fragment(){
+class DetailedWeatherFragment : Fragment() {
 
     data class WeatherData(
         @SerializedName("sys") val sys: Sys,
@@ -77,7 +77,8 @@ class DetailedWeatherFragment : Fragment(){
     private suspend fun loadWeather() {
         val API_KEY = getString(R.string.api_key)
 
-        val weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=$API_KEY&units=metric"
+        val weatherURL =
+            "https://api.openweathermap.org/data/2.5/weather?q=London&appid=$API_KEY&units=metric"
         val stream = URL(weatherURL).openStream()
 
         val data = Scanner(stream).useDelimiter("\\A").next()
@@ -102,6 +103,7 @@ class DetailedWeatherFragment : Fragment(){
         textViewDescription.text = "Description: $description"
         textViewWind.text = "Wind speed: $wind"
     }
+
     private fun convertTime(unixTimestamp: Long): String {
         val date = Date(unixTimestamp * 1000L)
         val sdf = SimpleDateFormat("HH:mm", Locale.getDefault())

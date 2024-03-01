@@ -1,4 +1,5 @@
 package com.example.memorina
+
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.View
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         newGame()
     }
 
-    fun resetGame(v: View){
+    fun resetGame(v: View) {
         newGame()
     }
 

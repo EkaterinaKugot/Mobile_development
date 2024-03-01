@@ -18,7 +18,7 @@ import kotlinx.coroutines.withContext
 import java.net.URL
 import java.util.Scanner
 
-class BriefWeatherFragment : Fragment(){
+class BriefWeatherFragment : Fragment() {
 
     data class WeatherData(
         @SerializedName("weather") val weather: List<Weather>,
@@ -54,7 +54,8 @@ class BriefWeatherFragment : Fragment(){
     private suspend fun loadWeather() {
         val API_KEY = getString(R.string.api_key)
 
-        val weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=$API_KEY&units=metric"
+        val weatherURL =
+            "https://api.openweathermap.org/data/2.5/weather?q=London&appid=$API_KEY&units=metric"
         val stream = URL(weatherURL).openStream()
 
         val data = Scanner(stream).useDelimiter("\\A").next()
@@ -78,20 +79,25 @@ class BriefWeatherFragment : Fragment(){
         return when (icon) {
             "01d" -> R.drawable.d01
             "01n" -> R.drawable.n01
-            "02d"-> R.drawable.d02
-            "02n"-> R.drawable.n02
+            "02d" -> R.drawable.d02
+            "02n" -> R.drawable.n02
             "03d",
             "03n" -> R.drawable.d03
+
             "04d",
             "04n" -> R.drawable.d04
+
             "09d",
             "09n" -> R.drawable.d09
+
             "10d" -> R.drawable.d10
             "10n" -> R.drawable.n10
             "11d",
-            "11n"-> R.drawable.d11
+            "11n" -> R.drawable.d11
+
             "13d",
             "13n" -> R.drawable.d13
+
             "50d",
             "50n" -> R.drawable.d50
 
