@@ -13,7 +13,7 @@
 
 Согласились
 
-![png_2](https://github.com/EkaterinaKugot/Mobile_development/blob/main/GPS_practice/res2.png)
+![png_2](https://github.com/EkaterinaKugot/Mobile_development/blob/main/GPS_practice/res21.png)
 
 
 Не согласились
