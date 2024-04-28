@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="api_key">70ead91e9e9e1ded2edb4aa3c456ae02</string>
+    <string name="editTextHint">Enter City Name</string>
+    <string name="buttonText">Refresh Weather</string>
+    <string name="sunrise">Sunrise Time: </string>
+    <string name="sunset">Sunset Time: </string>
+    <string name="description">Description: </string>
+    <string name="wind">Wind speed: </string>
+</resources>

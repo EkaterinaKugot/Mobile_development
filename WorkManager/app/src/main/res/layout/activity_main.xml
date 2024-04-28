@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextHint"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextCity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextHint"
+        android:textSize="24sp"
+        android:layout_below="@id/editTextCity"/>
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCity2"
+        android:layout_marginTop="16dp"
+        android:onClick="onClick"
+        android:text="@string/buttonText"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cityName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRefresh"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewWeather1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityName1"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewWind1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWeather1"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cityName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWind1"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewWeather2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityName2"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewWind2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWeather2"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>
