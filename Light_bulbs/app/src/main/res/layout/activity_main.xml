@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/lamp00"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp01"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp02"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp03"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp11"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp12"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp13"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp20"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp21"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp22"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp23"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp30"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp31"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp32"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/lamp33"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_lamp_off"
+        android:onClick="onClick" />
+
+</GridLayout>
